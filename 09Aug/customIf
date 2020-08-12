@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+''' itsOrD || playing with if-blocks '''
+
+
+def main():
+    '''learning some branchless techniques'''
+    print('''I can tell which number is greather than which without an if branch. Try me...''')
+    user_a = input('Pick a number, any number --> ')
+    user_b = input('Pick a second number --> ')
+    print( compareFunc(user_a, user_b) )
+    
+def compareFunc(a, b):
+    return a * (a < b) + b * (b <= a)
+    
+    
+if __name__ == "__main__":
+    main()
