@@ -24,3 +24,6 @@ class Cheat_Loaded_Dice(Player):
         self.dice[i] += 1
       i += 1
 
+class CheatyMcCheat(Player):
+    def cheat(self):
+        self.dice = [6,6,6]
