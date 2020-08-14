@@ -15,5 +15,7 @@ def main():
         print('\n**************Details of Interface - ' + i + ' *********************')
         print(netifaces.ifaddresses(i))    
     
+    
+    
 if __name__ == "__main__":
     main()
