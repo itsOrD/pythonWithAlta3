@@ -2,6 +2,10 @@
 ''' itsOrD || working on basic loop exit conditions'''
 
 
+## NOTE this does not work as expected. Loop maintains itself rather than exiting
+## TODO: fix if checks
+
+
 from subprocess import call
 from os import name as osname
 import sys
