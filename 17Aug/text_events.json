@@ -1,0 +1,24 @@
+{
+   "foyer":{
+      "beds":0,
+      "moves":{
+         "up":"upstairs",
+         "left":"den",
+         "right":"kitchen"
+      }
+   },
+   "upstairs":{
+      "beds":0,
+      "moves":{
+         "left":"bed room 1",
+         "right":"bed room 2",
+         "down":"foyer"
+      }
+   },
+   "bed room 1":{
+      "beds":3,
+      "moves":{
+         "back":"upstairs"
+      }
+   }
+}

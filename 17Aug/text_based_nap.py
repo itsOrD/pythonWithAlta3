@@ -48,7 +48,7 @@ def main():
     intro()
     welcome_screen()
     show_dashboard()
-
+    input('Wanna play the game?')
 
 
 if __name__ == "__main__":
